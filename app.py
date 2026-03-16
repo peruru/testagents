@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-from mangum import Mangum
+
 import uuid
 from datetime import datetime, timezone
 
@@ -142,7 +142,4 @@ def home():
     return {"status": "Weather Agent running"}
 
 
-# -----------------------------
-# AWS Lambda Handler
-# -----------------------------
-handler = Mangum(app)
+
