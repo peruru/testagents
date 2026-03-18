@@ -39,9 +39,9 @@ async def agent_card():
     return {
         "name": "Weather Insight Agent",
         "description": "AI agent that provides weather information and forecasts.",
-        "url": "https://lemuel-relegable-furthermore.ngrok-free.dev/",
+        "url": "https://eupcfvwitm.us-east-1.awsapprunner.com",
         "version": "1.0.0",
-        "rpcEndpoint": "https://lemuel-relegable-furthermore.ngrok-free.dev/rpc",
+        "rpcEndpoint": "https://eupcfvwitm.us-east-1.awsapprunner.com",
         "capabilities": {
             "streaming": False,
             "pushNotifications": False,
