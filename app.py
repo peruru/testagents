@@ -41,7 +41,7 @@ async def agent_card():
         "description": "AI agent that provides weather information and forecasts.",
         "url": "https://eupcfvwitm.us-east-1.awsapprunner.com",
         "version": "1.0.0",
-        "rpcEndpoint": "https://eupcfvwitm.us-east-1.awsapprunner.com",
+        "rpcEndpoint": "https://eupcfvwitm.us-east-1.awsapprunner.com/rpc",
         "capabilities": {
             "streaming": False,
             "pushNotifications": False,
